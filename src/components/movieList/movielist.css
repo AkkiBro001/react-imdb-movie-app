@@ -1,0 +1,16 @@
+.card__container{
+    padding: 2em;
+    margin: 0 auto;
+    display: grid;
+    justify-items: center;
+  }
+  
+
+
+  .card__container .cards{
+      display: flex;
+      justify-content: center;
+      margin-top: 2em;
+      flex-wrap: wrap;
+      gap: 0.75em;
+  }

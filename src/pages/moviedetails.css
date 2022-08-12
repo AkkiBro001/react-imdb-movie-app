@@ -1,0 +1,137 @@
+.movie_details_container{
+    width: min(1200px, 100%);
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    
+}
+
+.movie_details_container .banner img{
+    width: 100%;
+    
+}
+
+.movie_details_container .banner{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+    overflow: hidden;
+}
+
+
+.movie_details_container .details_section{
+    display: flex;
+    gap: 1.2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 1em;
+    
+}
+
+.movie_details_container .poster{
+    
+    position: relative;
+    align-self: flex-start;
+    width: min(250px, 90%);
+    margin-bottom: 1em;
+}
+
+
+.movie_details_container .poster a{
+    position: absolute;
+    left: 50%;
+    transform-origin: bottom;
+    transform: translateX(-50%) translateY(-55%) scale(1.2);
+    padding: 0.5em 1.5em;
+    background: crimson;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    top: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 500;
+
+}
+
+.movie_details_container .poster img{
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.movie_details_container .details{
+    flex: 1 1 400px;
+    
+}
+
+.movie_details_container .details .title{
+    font-size: 3.5rem;
+    margin: 0 0 0.5em;
+}
+
+.movie_details_container .details p{
+    font-size: 1.3rem;
+}
+
+.movie_details_container .subTitle{
+    font-weight: 700;
+    margin-right: 0.25em;
+    
+    align-self: flex-start;
+}
+
+.movie_details_container .details div{
+    margin-top: 1rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 0.5em;
+    align-items: center;
+    
+}
+
+.movie_details_container .details .genres{
+    flex-wrap: wrap;
+}
+
+.movie_details_container .details span{
+    font-style: italic;
+    opacity: 0.85;
+    font-size: 1.1rem;
+    
+}
+
+.movie_details_container .genres span{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 0.25em 0.75em;
+    border-radius: 9999px;
+    
+    
+}
+
+
+
+.production_companies{
+    align-items: center;
+}
+
+
+
+
+@media screen and (max-width:760px){
+    .movie_details_container .details .title{
+        font-size: 2.65rem;
+        
+    }
+}
+
+
+
+
+
+
+
