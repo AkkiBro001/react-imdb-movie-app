@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-imdb-movie-app/static/css/main.0f91d714.css",
-    "main.js": "/react-imdb-movie-app/static/js/main.91489a88.js",
+    "main.js": "/react-imdb-movie-app/static/js/main.a155c297.js",
     "index.html": "/react-imdb-movie-app/index.html",
     "main.0f91d714.css.map": "/react-imdb-movie-app/static/css/main.0f91d714.css.map",
-    "main.91489a88.js.map": "/react-imdb-movie-app/static/js/main.91489a88.js.map"
+    "main.a155c297.js.map": "/react-imdb-movie-app/static/js/main.a155c297.js.map"
   },
   "entrypoints": [
     "static/css/main.0f91d714.css",
-    "static/js/main.91489a88.js"
+    "static/js/main.a155c297.js"
   ]
 }
