@@ -1,0 +1,91 @@
+nav{
+    padding: 0 2em;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo{
+    font-size: 3rem;
+    color: yellow;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    margin-right: 0.75em;
+}
+
+.active{
+    color: crimson;
+}
+
+nav .menu{
+    display: flex;
+    list-style: none;
+    
+}
+
+nav .menu li+li{
+    margin-left: 2.5em;
+}
+
+nav .menu a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #eee;
+}
+
+nav .menu a:hover, nav .menu a:focus{
+    color: crimson;
+}
+
+@media screen and (max-width:600px){
+    nav .menu a{
+        font-size: 1.1rem;
+    }
+
+    nav .menu{
+        font-size: 0.85rem;
+    }
+
+    nav .menu li+li{
+        margin-left: 1em;
+    }
+
+    nav{
+        padding: 0 0.85em;
+    }
+
+    nav .logo{
+        font-size: 3rem;
+        
+        margin-right: 0.35em;
+    }
+    
+}
+
+@media screen and (max-width:380px){
+    nav .menu a{
+        font-size: 1.05rem;
+    }
+
+    nav .menu{
+        font-size: 0.85rem;
+    }
+
+    nav .menu li+li{
+        margin-left: 1em;
+    }
+
+    nav{
+        padding: 0 0.85em;
+    }
+
+    nav .logo{
+        font-size: 2.5rem;
+        
+        margin-right: 0.35em;
+    }
+    
+}
+
+
