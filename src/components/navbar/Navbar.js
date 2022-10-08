@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav>
             <Link to="/react-imdb-movie-app" className='logo'><FaImdb /></Link>
             <ul className='menu'>
-                <li><NavLink to="/react-imdb-movie-app" 
+                <li><NavLink end to="/react-imdb-movie-app" 
                 style={({ isActive }) =>
                     isActive ? activeStyle : null}
                 >Home</NavLink></li>
